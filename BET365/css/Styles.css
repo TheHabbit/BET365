@@ -1,0 +1,58 @@
+*{  
+    margin: 0 auto;
+    padding: 0 auto;
+}
+body{
+    background-color: gray;
+}
+/**** Menú ****/
+*{ margin: 0px;
+    padding: 0px;
+}
+.navbar {
+    margin-bottom: 15px;
+}
+#navegacion {
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #126e51;
+}
+img.logo{
+    width: 100%;
+}
+/* Estilo de las cajas*/
+/*CAJA PAIS*/
+.seleccion_pais{
+    min-width: 400px;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+.Seleccion_tratamiento{
+    min-width: 400px;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+/*CAJA DNI*/
+.caja_dni {
+    min-width: 400px;
+    padding: 0.5em;
+    font-size: 1.2em;
+    &:invalid {
+      outline: red solid 2px;
+    }
+  }
+.caja_submit_dni {
+    padding: 0.5em;
+    font-size: 1.2em;
+  }
+  /*DATOS*/
+.caja_datos{
+    min-width: 400px;
+    padding: 0.5em;
+    font-size: 1.2em;
+}
+hr{
+    width: 50%;
+}
